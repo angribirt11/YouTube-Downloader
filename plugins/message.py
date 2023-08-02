@@ -24,7 +24,6 @@ async def handle_youtube_link(bot, message):
     thumbnail_url = youtube.thumbnail_url
     title = youtube.title
     description = youtube.description
-    formatted_text = f"<b>{title}</b>} <a href='https://www.youtube.com/watch?v={video_id}''>Read more</a>\n\n\nOnly download videos that you have the right to download. Do not use this bot to download copyrighted content that you do not have permission to use.\nDo not use this bot to download content that is illegal or violates Telegram's terms of service.\nBe respectful to other users and do not use the bot to spam or harass others.\nThe bot can only download videos that are publicly available on YouTube.\nThe bot can only download videos up to a maximum file size of 2 GB.\nThe bot can only download videos that are available in a format that can be downloaded."
     resolutions = []
 
     try:
